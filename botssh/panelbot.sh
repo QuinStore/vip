@@ -31,7 +31,7 @@ read -p "PILIH NOMOR:" bro
 case $bro in
 01 | 1) clear ; systemctl restart cybervpn && panelbot ;;
 02 | 2) clear ; systemctl stop cybervpn && panelbot ;;
-03 | 3) clear ; nano /root/cybervpn/var.txt ;;
+03 | 3) clear ; nano /root/media/cybervpn/var.txt ;;
 100) clear ; $up2u ;;
 00 | 0) clear ; menu1 ;;
 *) clear ; menu1 ;;
